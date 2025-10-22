@@ -1,1 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
 
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px gray;
+}
+
+h2 {
+    text-align: right;
+    word-spacing: 10px;
+    text-transform: capitalize;
+    border-top: 1px solid black;
+}
+
+#paragrafo1 {
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.8;
+    text-decoration: underline dotted;
+}
+
+#paragrafo2 {
+    text-align: center;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    letter-spacing: 2px;
+}
+
+#paragrafo3 {
+    text-align: left;
+    word-spacing: 8px;
+    text-decoration: overline;
+    text-shadow: 1px 1px 3px lightgray;
+}
+
+.destaque {
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-transform: lowercase;
+    text-shadow: 0 0 5px blue, 
+                 0 0 15px cyan, 
+                 0 0 25px lightblue;
+}
